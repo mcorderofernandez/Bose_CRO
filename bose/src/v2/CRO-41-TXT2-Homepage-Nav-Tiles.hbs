@@ -1,0 +1,70 @@
+{{!--
+    Add Evergage data attributes to elements you wish to track in the test experience.
+
+    Visit the Campaign Stats Tracking documentation to learn more:
+    https://developer.salesforce.com/docs/marketing/personalization/guide/campaign-stats-tracking.html.
+--}}
+
+<div id="evg-new-template" data-evg-campaign-id="{{campaign}}" data-evg-experience-id="{{experience}}"
+    data-evg-user-group="{{userGroup}}"></div>
+
+<div class="categories-grid" id="shopByCategory">
+    <div class="category__row">
+        <p class="product-carousel__title category__heading">Shop by Category</p>
+    </div>
+
+    <div class="justify-content-center category__row">
+        <div class="category">
+            <picture class="category__picture">
+                <img class="editorial-card__image" alt="Headphones" src="https://assets.bosecreative.com/transform/6b354bf9-71a8-4add-83a0-6a21d1a56030/QCUHLE24_GALLERY_AEM-1_03?io=transform:crop,height:882,width:588,path:square,gravity:top">
+            </picture>
+            <div class="category__container">
+                <a target="_self" href="/c/headphones" class="category__link" style="width: 40px;background: white; z-index: 1;">
+                    <i class="bif-long-arrow-right category__label" aria-hidden="true"></i>
+                </a>
+                <a target="_self" href="/c/headphones" class="btn btn-sm editorial-category__cta editorial-category__cta--primary btn--fill btn--label category__link">
+                    Headphones
+                </a>
+            </div>
+        </div>
+        <div class="category">
+            <picture class="category__picture">
+                <img class="editorial-card__image" alt="Earbuds" src="https://assets.bosecreative.com/transform/89700b06-950b-4f6b-92ac-dfff72923cbf/QCUEBLE24_MoonstoneBlue_PDP_GALLERY_SF_03?io=transform:crop,height:882,width:588,path:square">
+            </picture>
+            <div class="category__container">
+                <a target="_self" href="/c/earbuds" class="category__link" style="width: 40px;background: white; z-index: 1;">
+                    <i class="bif-long-arrow-right category__label" aria-hidden="true"></i>
+                </a>
+                <a target="_self" href="/c/earbuds" class="btn btn-sm editorial-category__cta editorial-category__cta--primary btn--fill btn--label category__link">
+                    Earbuds
+                </a>
+            </div>
+        </div>
+        <div class="category">
+            <picture class="category__picture">
+                <img class="editorial-card__image" alt="Headphones " src="https://assets.bosecreative.com/transform/015923bb-4d98-41a7-a495-ff46229d1d91/SLFBS-LE_Green_PDP_ECOM_SLIDER_IMAGERY_05?io=transform:rotate,angle:270&io=transform:scale,height:1000,width:882&io=transform:crop,height:588,width:882,path:square,gravity:center">
+            </picture>
+            <div class="category__container">
+                <a target="_self" href="/c/speakers" class="category__link" style="width: 40px;background: white; z-index: 1;">
+                    <i class="bif-long-arrow-right category__label" aria-hidden="true"></i>
+                </a>
+                <a target="_self" href="/c/speakers" class="btn btn-sm editorial-category__cta editorial-category__cta--primary btn--fill btn--label category__link">
+                    Speakers
+                </a>
+            </div>
+        </div>
+        <div class="category">
+            <picture class="category__picture">
+                <img class="editorial-card__image" alt="Headphones " src="https://assets.bosecreative.com/transform/603a5174-6965-4688-b0e2-ee9f279dd7b0/SUSB_D82_PDP_Carousel6_860x860?io=transform:crop,height:882,width:588,path:square">
+            </picture>
+            <div class="category__container">
+                <a target="_self" href="/c/home-theater" class="category__link" style="width: 40px;background: white; z-index: 1;">
+                    <i class="bif-long-arrow-right category__label" aria-hidden="true"></i>
+                </a>
+                <a target="_self" href="/c/home-theater" class="btn btn-sm editorial-category__cta editorial-category__cta--primary btn--fill btn--label category__link category__large_label">
+                    Home Theater
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

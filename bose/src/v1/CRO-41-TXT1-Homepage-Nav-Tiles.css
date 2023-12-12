@@ -1,0 +1,112 @@
+.page-homepage .secondary-navigation {
+    margin-bottom: 0px !important;
+}
+
+.secondary-navigation__item {
+    border: none !important;
+    width: auto !important;
+}
+
+.secondary-navigation__button:hover {
+    text-decoration: underline;
+    background: #f8f8f8;
+}
+
+.secondary-navigation__wrapper{
+    width: 100%;
+}
+
+.tns-inner{
+    background: #f8f8f8;
+}
+
+/* Desktop */
+@media (min-width: 767px){
+    .page-homepage .page-intro {
+        margin-bottom: 64px !important;
+    }
+    .secondary-navigation__nav{
+        justify-content: center !important;
+        display: flex !important;
+        background: #f8f8f8 !important;
+    }
+
+    .secondary-navigation__button {
+        color: var(--colors-neutrals-light-background-set-text-strong, var(--color-neutral-black-bass, #131317)) !important;
+        font-family: Bose Text;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        height: 64px;
+        padding: 32px 0 32px 0 !important;
+        margin-right: 48px;
+        min-width: 0px !important;
+        width: 100% !important;
+    }
+
+}
+
+/* Desktop */
+/* No less than 768px, no greater than 1440px */
+@media (min-width:768px) and (max-width:1440px) {
+    .secondary-navigation__nav{
+        justify-content: left !important;
+        overflow: scroll !important;
+    }
+}
+
+/* Desktop */
+@media (min-width:1440px) {
+    .secondary-navigation__nav{
+        width: 100% !important;
+    }
+
+    .secondary-navigation .tns-controls {
+        display:none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 375px){
+    .secondary-navigation__button {
+        padding: 16px 12px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px){
+    .page-homepage .page-intro {
+        margin-bottom: 48px !important;
+    }
+
+    .secondary-navigation__nav{
+        overflow: scroll !important;
+        width: 100% !important;
+        transform: none !important;
+    }
+
+    .secondary-navigation__button {
+        display: grid;
+        height: 90px !important;
+        min-width: auto;
+        justify-items: center;
+        text-align: center;
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+
+    .page-homepage .secondary-navigation .tns-controls button{
+        display: none;
+    }
+
+    .secondary-navigation__nav::-webkit-scrollbar {
+    height: 3px;
+    background-color: #f8f8f8;
+    }
+
+    .secondary-navigation__nav::-webkit-scrollbar-thumb {
+    background: #999;
+    }
+
+}
